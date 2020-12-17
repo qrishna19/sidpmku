@@ -19,12 +19,19 @@
 <body>
     <div id="login">
         <div class="col-md-12">
-            <div class=" text-center col-md-6 col-md-offset-3 well lead form">
-                <p>Login</p>
+            <div class="col-md-6 col-md-offset-3 well lead form">
+                <h1 class="text-center">Login</h1>
+                <h5 class="text-center">sebagai</h5>
+                <div class="text-center">
+                <select class="form-control form-control-sm" style="width:150px; margin:auto">
+                                    <option>Mahasiswa</option>
+                                    <option>Dosen</option>
+                                </select>
+                </div>
                 <br>
                 <form>
                     <div class="form-group">
-                        <label for="exampleInputEmail1">Email address</label>
+                        <label for="exampleInputEmail1" class="text-left">Email address</label>
                         <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
                     </div>
                     <div class="form-group">
@@ -35,7 +42,7 @@
                         <input type="checkbox" class="form-check-input" id="exampleCheck1">
                         <label class="form-check-label" for="exampleCheck1">Check me out</label>
                     </div> -->
-                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <button type="submit" class="btn btn-primary" style="float: right;">Submit</button>
                 </form>
             </div>
         </div>

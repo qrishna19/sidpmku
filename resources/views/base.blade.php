@@ -37,7 +37,7 @@
             <div class="page-content inset">
                 <div class="row">
                     <div class="col-md-12">
-                        <div class="well lead header">Direktori Sistem Mahasiswa<a href="#" style="float:right; font-size:small; color:grey" class="text-center"><span class="sub_icon glyphicon glyphicon-user" style="padding-top:0px; padding-right:inherit;"></span><br />Masuk</a></div>
+                        <div class="well lead header">Direktori Sistem Mahasiswa<a href="/login" style="float:right; font-size:small; color:grey" class="text-center"><span class="sub_icon glyphicon glyphicon-user" style="padding-top:0px; padding-right:inherit;"></span><br />Masuk</a></div>
                     </div>
                 </div>
                 <div class="content">
