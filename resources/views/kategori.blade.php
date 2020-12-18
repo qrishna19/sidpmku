@@ -23,11 +23,17 @@
         <!-- Sidebar -->
         <div id="sidebar-wrapper">
             <ul id="sidebar_menu" class="sidebar-nav">
-                <li class="sidebar-brand"><a id="menu-toggle" href="#"><span id="main_icon" class="glyphicon glyphicon-align-justify"></span></a></li>
+                <li class="sidebar-brand" style="padding-top: 5px;">
+                    <a href="#">
+                        <span class="sub_icon glyphicon" style="margin-left: -3px;">
+                            <img src="{{asset('asset/dehaze.png')}}" height="24" alt="logo" loading="lazy">
+                        </span>
+                    </a>
+                </li>
             </ul>
-            <ul class="sidebar-nav" id="sidebar">
-                <li><a href="/" class="text-center"><span class="sub_icon glyphicon glyphicon-home"></span><br />Beranda</a></li>
-                <li><a href="/kategori" class="text-center"><span class="sub_icon glyphicon glyphicon-th-large"></span><br />Kategori</a></li>
+            <ul class="sidebar-nav" style="padding-top: 10px;" id="sidebar">
+                <li><a href="/admin" class="text-center" style="padding-top: 10px;"><span class="sub_icon glyphicon glyphicon-home"></span><br />Dashboard</a></li>
+                <li><a href="/kategori" class="text-center" style="padding-top: 10px;"><span class="sub_icon glyphicon glyphicon-th-large"></span><br />Kategori</a></li>
             </ul>
         </div>
 
@@ -37,7 +43,7 @@
             <div class="page-content inset">
                 <div class="row">
                     <div class="col-md-12">
-                        <div class="well lead header">Direktori Sistem Mahasiswa<a href="/login" style="float:right; font-size:small; color:grey" class="text-center"><span class="sub_icon glyphicon glyphicon-user" style="padding-top:0px; padding-right:inherit;"></span><br />Masuk</a></div>
+                        <div class="well lead header"><img src="{{asset('asset/logo.png')}}" style="padding-top:0px; display:inline"><a href="/login" style="float:right; font-size:small; color:grey" class="text-center"><span class="sub_icon glyphicon glyphicon-user" style="padding-top:0px; padding-right:inherit;"></span><br />Masuk</a></div>
                     </div>
                 </div>
                 <div class="content">
@@ -53,13 +59,13 @@
                             <img src="{{asset('asset/Group 63.png')}}" class="item-image">
                             <br>
                             <p class="item-title">Aplikasi WEB</p>
-                            
+
                         </div>
                         <div class="col-md-6 text-center">
                             <img src="{{asset('asset/Group 64.png')}}" class="item-image">
                             <br>
                             <p class="item-title">Aplikasi Mobile</p>
-                            
+
                         </div>
                     </div>
                     <div class="row project-item" style="margin-top:50px">
@@ -67,13 +73,13 @@
                             <img src="{{asset('asset/Group 65.png')}}" class="item-image">
                             <br>
                             <p class="item-title">Tugas Akhir</p>
-                            
+
                         </div>
                         <div class="col-md-6 text-center">
                             <img src="{{asset('asset/Group 66.png')}}" class="item-image">
                             <br>
                             <p class="item-title">Multimedia</p>
-                            
+
                         </div>
                     </div>
                 </div>

@@ -15,21 +15,20 @@ body {
 
 #sidebar-wrapper {
     margin-left: -150px;
-    left: 70px;
-    width: 130px;
+    width: 100px;
     background: white;
     position: fixed;
     height: 100%;
     z-index: 10000;
     transition: all .4s ease 0s;
-    border-right-style: solid;
+    border-right: 1px;
     border-color: grey;
 }
 
 .sidebar-nav {
     display: block;
     float: left;
-    width: 125px;
+
     list-style: none;
     margin: 0;
     padding: 0;
@@ -41,7 +40,7 @@ body {
     height: auto;
 }
 #wrapper.active {
-    padding-left: 150px;
+    padding-left: 120px;
 }
 #wrapper.active #sidebar-wrapper {
     left: 150px;
@@ -54,9 +53,7 @@ body {
 #sidebar_menu li a, .sidebar-nav li a {
     color: purple;
     display: block;
-    float: left;
     text-decoration: none;
-    width: 150px;
     /* background: #fff; */
     -webkit-transition: background .5s;
     -moz-transition: background .5s;

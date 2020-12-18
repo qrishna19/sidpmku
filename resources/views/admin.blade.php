@@ -24,7 +24,13 @@
         <!-- Sidebar -->
         <div id="sidebar-wrapper">
             <ul id="sidebar_menu" class="sidebar-nav">
-                <li class="sidebar-brand"><a id="menu-toggle" href="#"><span id="main_icon" class="glyphicon glyphicon-align-justify"></span></a></li>
+                <li class="sidebar-brand">
+                    <a href="#">
+                        <span class="sub_icon glyphicon" style="margin-left: -3px;">
+                            <img src="{{asset('asset/dehaze.png')}}" height="24" alt="logo" loading="lazy">
+                        </span>
+                    </a>
+                </li>
             </ul>
             <ul class="sidebar-nav" id="sidebar">
                 <li><a href="/admin" class="text-center"><span class="sub_icon glyphicon glyphicon-home"></span><br />Dashboard</a></li>
@@ -39,14 +45,16 @@
         <div id="page-content-wrapper">
             <!-- Buat seluruh isi konten berada dalam class="page-content inset" -->
             <div class="page-content inset">
+
                 <div class="row">
                     <div class="col-md-12">
                         <div class="well lead header">Direktori Sistem Mahasiswa
                             <ul class="nav navbar-nav navbar-right" style="margin-top: -20px !important;">
                                 <!-- <ul> -->
                                 <li class="dropdown">
-                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><img src="{{asset('asset/mdi_notifications.png')}}" style="padding-top:0px; display:inline"></span>
-                                        <img src="{{asset('asset/mdi_arrow_drop_down.png')}}" style="padding-top:0px; display:inline"></span></a>
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                        <img src="{{asset('asset/mdi_arrow_drop_down.png')}}" style="padding-top:0px; display:inline">
+                                    </a>
                                     <ul class="dropdown-menu notify-drop" style="min-width: 250px;">
                                         <div class="notify-drop-title">
                                             <div class="row">
@@ -111,12 +119,14 @@
                                 </li>
                             </ul>
 
-                            <a href="#" style="float:right; font-size:small; color:grey" class="text-center">Admin
-                                <img src="{{asset('asset/mdi_account_circle.png')}}" style="padding-top:0px; padding-right: 30px; display:inline"></span>
+                            <a href="#" style="float:right; font-size:18px; color:grey" class="text-center">Admin
+                                <img src="{{asset('asset/mdi_account_circle.png')}}" style="padding-top:0px; padding-right: 30px; padding-left: 10px; display:inline"></span>
                             </a>
+
                         </div>
                     </div>
                 </div>
+
                 <div class="content">
                     <div class="row">
                         <div class="col-md-4">
@@ -180,6 +190,8 @@
                 </div>
 
             </div>
+        </div>
+    </div>
 
             <!-- Akhir Wrapper -->
             <script src="{{asset('js/notif.js')}}"></script>

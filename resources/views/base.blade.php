@@ -18,8 +18,6 @@
 
 <body>
     <div id="wrapper" class="active">
-
-        <!-- Sidebar -->
         <!-- Sidebar -->
         <div id="sidebar-wrapper">
             <ul id="sidebar_menu" class="sidebar-nav">
